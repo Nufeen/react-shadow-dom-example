@@ -1,6 +1,6 @@
 # React in shadow DOM example
 
-When dealing with react apps inside shadow DOM I encountered some unevident issues, so I decided to share this synthetic example. It mostly implements ideas from this article (I highly recommend to read): https://medium.com/rate-engineering/winning-the-war-of-css-conflicts-through-the-shadow-dom-de6c797b5cba
+Dealing with react apps inside shadow DOM I have encountered some unevident issues, so I decided to share this synthetic example. It mostly implements ideas from this article (I highly recommend to read): https://medium.com/rate-engineering/winning-the-war-of-css-conflicts-through-the-shadow-dom-de6c797b5cba
 
 ## What is happenning here:
 
