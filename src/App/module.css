@@ -1,0 +1,26 @@
+html,
+body {
+  height: 100%;
+}
+
+.app,
+.app *:before,
+.app *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  display: block;
+  position: relative;
+  margin-top: 22px;
+}
+
+button:before {
+  content: 'CSS works';
+  color: red;
+  position: absolute;
+  left: 0;
+  top: -20px;
+}
