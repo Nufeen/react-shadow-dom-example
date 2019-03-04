@@ -4,7 +4,7 @@ Dealing with react apps inside shadow DOM I have encountered some unevident issu
 
 ## What is happenning here:
 
-1. We need to create shadow root. So we create an util (`see utils/shadow.js`) that makes it, returns link to shodow root for modern browsers and a link to node itself for Microsoft browsers (https://caniuse.com/#feat=shadowdomv1):
+1. We need to create shadow root. So we create an util (`see utils/shadow.js`) that makes it, returns link to shadow root for modern browsers and a link to node itself for Microsoft browsers (https://caniuse.com/#feat=shadowdomv1):
 
 ```js
 if (node.shadowRoot == null && node.attachShadow != null) {
