@@ -24,7 +24,7 @@ return node.shadowRoot != null ? node.shadowRoot : node;
 
 6. Note that we can place different babel configs in different directiories (if we'll need different babel settings for `webpack.config` and project code). See https://babeljs.io/docs/en/config-files for details.
 
-7. We are done with CSS, but when we try to add first event handler we find that React events do not fire inside our shadow! Sooner or later it will be fixed, but for now we stuck with it: https://github.com/facebook/react/issues/9242. So we have attach handlers manually (see `src/App/index.js`) or try solutions from discussion above: https://www.npmjs.com/package/react-shadow-dom-retarget-events
+7. We are done with CSS, but when we try to add first event handler we find that React events do not fire inside our shadow! Sooner or later it will be fixed, but for now we stuck with it: https://github.com/facebook/react/issues/9242. So we have to attach handlers manually (see `src/App/index.js`) or try solutions from discussion above: https://www.npmjs.com/package/react-shadow-dom-retarget-events
 
 ## Usage
 
